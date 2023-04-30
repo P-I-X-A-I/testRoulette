@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3A4F78D6-BDAF-4BFB-A05C-1F1507B9678F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Splaroulette</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="glew.h" />
+    <ClInclude Include="GUI_ManagerClass.h" />
+    <ClInclude Include="mainController.h" />
+    <ClInclude Include="matrixClass.h" />
+    <ClInclude Include="NotificationCenterClass.h" />
+    <ClInclude Include="OpenGLInitializerClass.h" />
+    <ClInclude Include="png.h" />
+    <ClInclude Include="pngconf.h" />
+    <ClInclude Include="pnglibconf.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="shaderLoaderClass.h" />
+    <ClInclude Include="Spla-roulette.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="wglew.h" />
+    <ClInclude Include="WindowManagerClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI_ManagerClass.cpp" />
+    <ClCompile Include="mainController.cpp" />
+    <ClCompile Include="mainController_fromGUI.cpp" />
+    <ClCompile Include="mainController_setupGUI.cpp" />
+    <ClCompile Include="matrixClass.cpp" />
+    <ClCompile Include="NotificationCenterClass.cpp" />
+    <ClCompile Include="OpenGLInitializerClass.cpp" />
+    <ClCompile Include="shaderLoaderClass.cpp" />
+    <ClCompile Include="Spla-roulette.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WindowManagerClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Spla-roulette.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="buki\buki_100.png" />
+    <Image Include="buki\buki_101.png" />
+    <Image Include="buki\buki_102.png" />
+    <Image Include="buki\buki_103.png" />
+    <Image Include="buki\buki_104.png" />
+    <Image Include="buki\buki_105.png" />
+    <Image Include="buki\buki_106.png" />
+    <Image Include="buki\buki_107.png" />
+    <Image Include="buki\buki_108.png" />
+    <Image Include="buki\buki_109.png" />
+    <Image Include="buki\buki_110.png" />
+    <Image Include="buki\buki_111.png" />
+    <Image Include="buki\buki_112.png" />
+    <Image Include="buki\buki_113.png" />
+    <Image Include="buki\buki_114.png" />
+    <Image Include="buki\buki_115.png" />
+    <Image Include="buki\buki_116.png" />
+    <Image Include="buki\buki_117.png" />
+    <Image Include="buki\buki_118.png" />
+    <Image Include="buki\buki_119.png" />
+    <Image Include="buki\buki_120.png" />
+    <Image Include="buki\buki_121.png" />
+    <Image Include="buki\buki_122.png" />
+    <Image Include="buki\buki_123.png" />
+    <Image Include="buki\buki_124.png" />
+    <Image Include="buki\buki_125.png" />
+    <Image Include="buki\buki_126.png" />
+    <Image Include="buki\buki_127.png" />
+    <Image Include="buki\buki_128.png" />
+    <Image Include="buki\buki_129.png" />
+    <Image Include="buki\buki_130.png" />
+    <Image Include="buki\buki_131.png" />
+    <Image Include="buki\buki_132.png" />
+    <Image Include="buki\buki_133.png" />
+    <Image Include="buki\buki_134.png" />
+    <Image Include="buki\buki_135.png" />
+    <Image Include="buki\buki_136.png" />
+    <Image Include="buki\buki_137.png" />
+    <Image Include="buki\buki_138.png" />
+    <Image Include="buki\buki_139.png" />
+    <Image Include="buki\buki_140.png" />
+    <Image Include="buki\buki_141.png" />
+    <Image Include="buki\buki_142.png" />
+    <Image Include="buki\buki_143.png" />
+    <Image Include="buki\buki_144.png" />
+    <Image Include="buki\buki_145.png" />
+    <Image Include="buki\buki_146.png" />
+    <Image Include="buki\buki_147.png" />
+    <Image Include="buki\buki_148.png" />
+    <Image Include="buki\buki_149.png" />
+    <Image Include="buki\buki_150.png" />
+    <Image Include="buki\buki_151.png" />
+    <Image Include="buki\buki_152.png" />
+    <Image Include="buki\buki_153.png" />
+    <Image Include="buki\buki_154.png" />
+    <Image Include="buki\buki_155.png" />
+    <Image Include="buki\buki_156.png" />
+    <Image Include="buki\buki_157.png" />
+    <Image Include="buki\buki_158.png" />
+    <Image Include="buki\buki_159.png" />
+    <Image Include="buki\buki_160.png" />
+    <Image Include="buki\buki_161.png" />
+    <Image Include="buki\buki_162.png" />
+    <Image Include="buki\buki_163.png" />
+    <Image Include="buki\buki_164.png" />
+    <Image Include="buki\buki_165.png" />
+    <Image Include="buki\buki_166.png" />
+    <Image Include="buki\buki_167.png" />
+    <Image Include="buki\buki_168.png" />
+    <Image Include="buki\buki_169.png" />
+    <Image Include="buki\buki_170.png" />
+    <Image Include="buki\buki_171.png" />
+    <Image Include="buki\buki_172.png" />
+    <Image Include="buki\buki_173.png" />
+    <Image Include="buki\buki_174.png" />
+    <Image Include="buki\buki_175.png" />
+    <Image Include="buki\buki_176.png" />
+    <Image Include="buki\buki_177.png" />
+    <Image Include="buki\buki_178.png" />
+    <Image Include="buki\buki_179.png" />
+    <Image Include="buki\buki_180.png" />
+    <Image Include="buki\buki_181.png" />
+    <Image Include="buki\buki_182.png" />
+    <Image Include="buki\buki_183.png" />
+    <Image Include="buki\buki_184.png" />
+    <Image Include="buki\buki_185.png" />
+    <Image Include="buki\buki_186.png" />
+    <Image Include="buki\buki_187.png" />
+    <Image Include="buki\buki_188.png" />
+    <Image Include="buki\buki_189.png" />
+    <Image Include="buki\buki_190.png" />
+    <Image Include="buki\buki_191.png" />
+    <Image Include="buki\buki_192.png" />
+    <Image Include="buki\buki_193.png" />
+    <Image Include="buki\buki_194.png" />
+    <Image Include="buki\buki_195.png" />
+    <Image Include="buki\buki_196.png" />
+    <Image Include="buki\buki_197.png" />
+    <Image Include="buki\buki_198.png" />
+    <Image Include="buki\buki_199.png" />
+    <Image Include="buki\buki_200.png" />
+    <Image Include="buki\buki_201.png" />
+    <Image Include="buki\buki_202.png" />
+    <Image Include="buki\buki_203.png" />
+    <Image Include="buki\buki_204.png" />
+    <Image Include="buki\buki_205.png" />
+    <Image Include="buki\buki_206.png" />
+    <Image Include="buki\buki_207.png" />
+    <Image Include="buki\buki_208.png" />
+    <Image Include="buki\buki_209.png" />
+    <Image Include="buki\buki_210.png" />
+    <Image Include="buki\buki_211.png" />
+    <Image Include="buki\buki_212.png" />
+    <Image Include="buki\buki_213.png" />
+    <Image Include="buki\buki_214.png" />
+    <Image Include="buki\buki_215.png" />
+    <Image Include="buki\buki_216.png" />
+    <Image Include="buki\buki_217.png" />
+    <Image Include="buki\buki_218.png" />
+    <Image Include="buki\buki_219.png" />
+    <Image Include="buki\buki_220.png" />
+    <Image Include="buki\buki_221.png" />
+    <Image Include="buki\buki_222.png" />
+    <Image Include="buki\buki_223.png" />
+    <Image Include="buki\buki_224.png" />
+    <Image Include="buki\buki_225.png" />
+    <Image Include="buki\buki_226.png" />
+    <Image Include="buki\buki_227.png" />
+    <Image Include="buki\buki_228.png" />
+    <Image Include="small.ico" />
+    <Image Include="Spla-roulette.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glew32.dll" />
+    <None Include="opengl32.dll" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glew32.lib" />
+    <Library Include="glew32s.lib" />
+    <Library Include="libpng16.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SH\Simple_FS.txt" />
+    <Text Include="SH\Simple_VS.txt" />
+    <Text Include="SH\Tex_FS.txt" />
+    <Text Include="SH\Tex_VS.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="roulette.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\libpng.redist.1.6.28.1\build\native\libpng.redist.targets" Condition="Exists('..\packages\libpng.redist.1.6.28.1\build\native\libpng.redist.targets')" />
+    <Import Project="..\packages\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.targets" Condition="Exists('..\packages\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.targets')" />
+    <Import Project="..\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.targets" Condition="Exists('..\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.targets')" />
+    <Import Project="..\packages\libpng.1.6.28.1\build\native\libpng.targets" Condition="Exists('..\packages\libpng.1.6.28.1\build\native\libpng.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\libpng.redist.1.6.28.1\build\native\libpng.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\libpng.redist.1.6.28.1\build\native\libpng.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v120.windesktop.msvcstl.dyn.rt-dyn.targets'))" />
+    <Error Condition="!Exists('..\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.targets'))" />
+    <Error Condition="!Exists('..\packages\libpng.1.6.28.1\build\native\libpng.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\libpng.1.6.28.1\build\native\libpng.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\buki">
+      <UniqueIdentifier>{2c1aa415-c358-4972-b90c-37e063623af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\libpng">
+      <UniqueIdentifier>{57bb0734-743d-413b-b0c8-15bfcd8c098c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Spla-roulette.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="mainController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ManagerClass.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLInitializerClass.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="wglew.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixClass.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderLoaderClass.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="png.h">
+      <Filter>ヘッダー ファイル\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="pngconf.h">
+      <Filter>ヘッダー ファイル\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="pnglibconf.h">
+      <Filter>ヘッダー ファイル\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagerClass.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationCenterClass.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Spla-roulette.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="mainController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ManagerClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLInitializerClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderLoaderClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="mainController_setupGUI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="mainController_fromGUI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagerClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationCenterClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Spla-roulette.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Spla-roulette.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="buki\buki_100.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_101.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_102.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_103.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_104.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_105.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_106.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_107.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_108.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_109.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_110.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_111.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_112.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_113.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_114.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_115.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_116.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_117.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_118.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_119.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_120.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_121.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_122.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_123.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_124.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_125.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_126.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_127.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_128.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_129.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_130.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_131.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_132.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_133.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_134.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_135.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_136.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_137.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_138.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_139.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_140.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_141.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_142.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_143.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_144.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_145.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_146.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_147.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_148.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_149.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_150.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_151.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_152.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_153.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_154.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_155.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_156.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_157.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_158.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_159.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_160.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_161.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_162.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_163.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_164.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_165.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_166.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_167.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_168.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_169.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_170.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_171.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_172.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_173.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_174.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_175.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_176.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_177.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_178.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_179.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_180.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_181.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_182.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_183.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_184.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_185.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_186.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_187.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_188.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_189.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_190.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_191.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_192.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_193.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_194.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_195.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_196.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_197.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_198.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_199.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_200.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_201.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_202.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_203.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_204.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_205.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_206.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_207.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_208.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_209.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_210.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_211.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_212.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_213.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_214.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_215.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_216.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_217.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_218.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_219.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_220.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_221.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_222.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_223.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_224.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_225.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_226.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_227.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+    <Image Include="buki\buki_228.png">
+      <Filter>リソース ファイル\buki</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glew32.dll">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="opengl32.dll">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glew32.lib">
+      <Filter>リソース ファイル</Filter>
+    </Library>
+    <Library Include="glew32s.lib">
+      <Filter>リソース ファイル</Filter>
+    </Library>
+    <Library Include="libpng16.lib">
+      <Filter>リソース ファイル</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SH\Simple_FS.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="SH\Simple_VS.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="SH\Tex_FS.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="SH\Tex_VS.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="roulette.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

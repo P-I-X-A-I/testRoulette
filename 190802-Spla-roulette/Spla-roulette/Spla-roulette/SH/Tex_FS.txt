@@ -1,0 +1,18 @@
+#version 410
+
+in vec4 color_out;
+in vec2 texCoord_out;
+
+layout ( location = 0 ) out vec4 fragColor;
+
+uniform sampler2D texImage;
+
+void main()
+{
+	vec4 texColor = texture( texImage, texCoord_out );
+
+	fragColor = vec4( color_out.r * texColor.r,
+						color_out.g * texColor.g,
+						color_out.b * texColor.b,
+						color_out.a * texColor.a);
+}

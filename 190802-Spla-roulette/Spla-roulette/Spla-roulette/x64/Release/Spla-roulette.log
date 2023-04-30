@@ -1,0 +1,62 @@
+﻿  stdafx.cpp
+  GUI_ManagerClass.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(87): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(135): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(183): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(253): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(274): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(287): warning C4244: '初期化中': 'LRESULT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(319): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(353): warning C4244: '初期化中': 'LRESULT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(360): warning C4244: '初期化中': 'LRESULT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(412): warning C4244: '初期化中': 'LRESULT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(418): warning C4244: '初期化中': 'LRESULT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\gui_managerclass.cpp(440): warning C4312: '型キャスト': 'int' からより大きいサイズの 'HMENU' へ変換します。
+  mainController.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(16): warning C4244: '引数': 'time_t' から 'unsigned int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(392): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(424): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
+  c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(424): note: プレースホルダーとそのパラメーターには 1 の可変個引数が必要ですが、0 が指定されています。
+  c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(424): note: 不足している可変個引数 1 が書式文字列 '%d' に必要です
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(618): warning C4305: '=': 'double' から 'GLfloat' へ切り詰めます。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(688): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(703): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(705): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(708): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(709): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(719): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(723): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(795): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+  mainController_fromGUI.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\maincontroller_fromgui.cpp(159): warning C4244: '引数': 'time_t' から 'unsigned int' への変換です。データが失われる可能性があります。
+  mainController_setupGUI.cpp
+  matrixClass.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(171): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(185): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(199): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(335): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(347): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(359): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(392): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(393): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(393): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(395): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(410): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(411): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\matrixclass.cpp(412): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  NotificationCenterClass.cpp
+  OpenGLInitializerClass.cpp
+  shaderLoaderClass.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\shaderloaderclass.cpp(39): warning C4244: '初期化中': 'std::streamoff' から 'unsigned long' への変換です。データが失われる可能性があります。
+  Spla-roulette.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\spla-roulette.cpp(138): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'HINSTANCE' です
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\spla-roulette.cpp(138): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('HINSTANCE' 型) と競合しています。
+  WindowManagerClass.cpp
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\windowmanagerclass.cpp(419): warning C4065: switch 文に 'default' はありますが 'case' ラベルがありません。
+c:\users\wtnbks\desktop\development\project\190802-spla-roulette\spla-roulette\spla-roulette\windowmanagerclass.cpp(386): warning C4101: 'winRect': ローカル変数は 1 度も使われていません。
+  コード生成しています。
+  198 of 200 functions (99.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  Spla-roulette.vcxproj -> C:\Users\wtnbks\Desktop\development\PROJECT\190802-Spla-roulette\Spla-roulette\x64\Release\Spla-roulette.exe

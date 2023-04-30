@@ -1,0 +1,54 @@
+﻿  mainController.cpp
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(16): warning C4244: '引数': 'time_t' から 'unsigned int' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(389): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(421): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
+  c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(421): note: プレースホルダーとそのパラメーターには 1 の可変個引数が必要ですが、0 が指定されています。
+  c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(421): note: 不足している可変個引数 1 が書式文字列 '%d' に必要です
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(607): warning C4305: '=': 'double' から 'GLfloat' へ切り詰めます。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(677): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(688): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(690): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(693): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(694): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(704): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(708): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\wtnbks\desktop\development\190722-spla-roulette\spla-roulette\spla-roulette\maincontroller.cpp(780): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewGenVertexArrays" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewGenBuffers" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewBindVertexArray" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewEnableVertexAttribArray" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewBindBuffer" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewBufferData" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewVertexAttribPointer" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewGenSamplers" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewSamplerParameteri" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewBindSampler" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewActiveTexture" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_sig_cmp" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_create_read_struct" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_create_info_struct" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_destroy_read_struct" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_image_begin_read_from_memory" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_image_finish_read" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "_png_image_free" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewUseProgram" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewUniformMatrix4fv" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewUniform4fv" は未解決です。
+mainController.obj : error LNK2001: 外部シンボル "__imp____glewUniform1i" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp__glewInit@0" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp____WGLEW_ARB_create_context" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp____WGLEW_ARB_pixel_format" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp____wglewChoosePixelFormatARB" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp____wglewCreateContextAttribsARB" は未解決です。
+OpenGLInitializerClass.obj : error LNK2001: 外部シンボル "__imp____wglewSwapIntervalEXT" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewCreateShader" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewShaderSource" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewCompileShader" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewGetShaderiv" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewGetShaderInfoLog" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewCreateProgram" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewAttachShader" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewLinkProgram" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewGetProgramiv" は未解決です。
+shaderLoaderClass.obj : error LNK2001: 外部シンボル "__imp____glewGetUniformLocation" は未解決です。
+C:\Users\wtnbks\Desktop\development\190722-Spla-roulette\Spla-roulette\Release\Spla-roulette.exe : fatal error LNK1120: 38 件の未解決の外部参照

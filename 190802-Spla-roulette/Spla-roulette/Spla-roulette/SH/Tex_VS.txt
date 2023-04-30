@@ -1,0 +1,21 @@
+#version 410
+
+// in value
+layout ( location = 0 ) in vec4 position;
+layout ( location = 1 ) in vec4 color;
+layout ( location = 2 ) in vec2 texCoord;
+
+// out value
+out vec4 color_out;
+out vec2 texCoord_out;
+
+//
+uniform mat4 mvpMatrix;
+
+
+void main()
+{
+	gl_Position = mvpMatrix*position;
+	color_out = color;
+	texCoord_out = texCoord;
+}
